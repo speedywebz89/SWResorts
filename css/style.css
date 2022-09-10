@@ -203,7 +203,7 @@ p {
   height: 100%;
   text-align:center;
   padding:20px 40px;
-  overflow: hidden;
+  overflow: auto;
 }
 
 #home-info .info-content p {

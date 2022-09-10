@@ -21,6 +21,12 @@
   padding-top:70px;
   padding-bottom: 30px;
 }
+#showcase {
+  height:600px;
+  background-blend-mode: darken;
+  background: rgba(0, 0, 0, 0.4)url('../img/showcase.jpg') 50% 50% / 100% no-repeat fixed;
+  background-size:cover;
+}
  
 /*home info */
 #home-info .info-img {
@@ -46,10 +52,18 @@ width:100%;
 #about-info .info-right{
   margin-top:30px;
 }
+#testimonials {
+  height: 100%;
+  background-blend-mode: darken;
+  background: rgba(0, 0, 0, 0.3)url('../img/test-bg.jpg') 50% 50% / 100% no-repeat;
+  padding-top: 100px;
+  background-size:cover;
+}
 
 .l-heading{
   text-align:center;
 }
+
 
 /*contact*/
 
