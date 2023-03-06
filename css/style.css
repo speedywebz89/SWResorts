@@ -1,13 +1,14 @@
 /* Reset */
 * {
   margin: 0;
-  padding:0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 /* Main Styling */
-html,body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+html,
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 2rem;
 }
 
@@ -16,8 +17,11 @@ a {
   text-decoration: none;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   padding-bottom: 20px;
+  padding-top: 75px;
 }
 
 p {
@@ -31,20 +35,19 @@ p {
   overflow: auto;
   padding: 0 20px;
 }
-.SW{
-  font-family: 'Cinzel Decorative', cursive;
+.SW {
+  font-family: "Cinzel Decorative", cursive;
   font-size: 1.9rem;
-  color:white;
+  color: #469cfe;
 }
-.SW2{
-  font-family: 'Cinzel Decorative', cursive;
+.SW2 {
+  font-family: "Cinzel Decorative", cursive;
   font-size: 1.5rem;
-  color:rgba(0, 0, 0, 0.793);
+  color: rgba(0, 0, 0, 0.793);
 }
-
 
 .text-primary {
-  color: #dfb623;
+  color: #469cfe;
 }
 
 .lead {
@@ -55,22 +58,23 @@ p {
   display: inline-block;
   font-size: 18px;
   color: #fff;
-  background: #333;
-  padding: 13px 20px;
+  background: #33333300;
+  padding: 10px 35px;
   border: none;
-  cursor:pointer;
-  border-radius: 6px;
+  cursor: pointer;
+  border: solid 2px #469cfe;
 }
 
 .btn:hover {
-  background: #dfb623;
-  color: rgb(61, 59, 59);
+  background: #469cfe;
+  color: rgb(255, 255, 255);
 }
 
 .btn-light {
   background: #f4f4f4;
   color: #333;
-  border-radius: 6px;
+  padding: 10px 35px;
+  border: none;
 }
 
 .bg-dark {
@@ -84,7 +88,7 @@ p {
 }
 
 .bg-primary {
-  background: #dfb623;
+  background: #469cfe;
   color: #333;
 }
 
@@ -97,20 +101,19 @@ p {
   line-height: 1.2;
 }
 
-
-
 /* Padding */
 
-
-
-.py-1 { padding: 10px 0; }
-.py-2 { padding: 20px 0; }
-.py-3 { padding: 30px 0; }
-
-
+.py-1 {
+  padding: 10px 0;
+}
+.py-2 {
+  padding: 20px 0;
+}
+.py-3 {
+  padding: 30px 0;
+}
 
 /* Navbar */
-
 
 #navbar {
   background: rgba(9, 9, 9, 0.815);
@@ -142,25 +145,21 @@ p {
   text-align: center;
 }
 
-#navbar ul li a:hover, 
+#navbar ul li a:hover,
 #navbar ul li a.current {
   background: rgb(87, 86, 86);
-  color: #dfb623;
+  color: #469cfe;
 }
-
-
 
 /* Showcase */
 
-
-
 #showcase {
-  height:600px;
+  height: 700px;
   background-blend-mode: darken;
-  background: rgba(0, 0, 0, 0.4)url('../img/showcase.jpg') 50% 50% / 100% no-repeat fixed;
-  background-size:cover;
+  background: rgba(0, 0, 0, 0.4) url("../img/showcase.jpg") 50% 50% / 100%
+    no-repeat fixed;
+  background-size: cover;
 }
-
 
 #showcase .showcase-content {
   color: #fff;
@@ -178,22 +177,17 @@ p {
   line-height: 1.7em;
 }
 
-
-
 /* Home Info */
 
-
-
-
 #home-info {
-  height: 450px;
+  height: 700px;
 }
 
 #home-info .info-img {
   float: left;
   width: 50%;
-  background: url('../img/photo1.jpg');
-  background-size:cover;
+  background: url("../img/photo1.jpg");
+  background-size: cover;
   min-height: 100%;
 }
 
@@ -201,37 +195,31 @@ p {
   float: right;
   width: 50%;
   height: 100%;
-  text-align:center;
-  padding:20px 40px;
+  text-align: center;
+  padding: 20px 40px;
   overflow: auto;
+  font-size: 22px;
 }
 
 #home-info .info-content p {
-  padding-bottom: 30px;
+  margin-top: 100px;
+  margin-bottom: 75px;
 }
 
-
-
 /* Features */
-
-
 
 .box {
   float: left;
   width: 33.3%;
   padding: 50px;
-  text-align:center;
+  text-align: center;
 }
 
 .box i {
   margin-bottom: 10px;
 }
 
-
-
 /* About Info */
-
-
 
 #about-info .info-right {
   float: right;
@@ -252,16 +240,13 @@ p {
   min-height: 100%;
 }
 
-
-
 /* Testimonials */
-
-
 
 #testimonials {
   height: 100%;
   background-blend-mode: darken;
-  background: rgba(0, 0, 0, 0.3)url('../img/test-bg.jpg') 50% 50% / 100% no-repeat;
+  background: rgba(0, 0, 0, 0.3) url("../img/test-bg.jpg") 50% 50% / 100%
+    no-repeat;
   padding-top: 100px;
 }
 
@@ -285,10 +270,7 @@ p {
   border-radius: 50%;
 }
 
-
-
 /* Contact Form */
-
 
 #contact-form .form-group {
   margin-bottom: 20px;
@@ -299,7 +281,7 @@ p {
   margin-bottom: 5px;
 }
 
-#contact-form input, 
+#contact-form input,
 #contact-form textarea {
   width: 100%;
   padding: 10px;
@@ -310,10 +292,24 @@ p {
   height: 200px;
 }
 
-#contact-form input:focus, 
+#contact-form input:focus,
 #contact-form textarea:focus {
   outline: none;
   border-color: #f7c08a;
+}
+.btn-submit {
+  display: inline-block;
+  font-size: 18px;
+  color: #1a1a1a;
+  background: #33333300;
+  padding: 10px 35px;
+  border: none;
+  cursor: pointer;
+  border: solid 2px #469cfe;
+}
+
+.btn-submit:hover {
+  background-color: #469cfe;
 }
 
 /* Footer */
